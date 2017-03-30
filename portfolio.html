@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Shreya Patel | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+      function check(form) {var txt="some text"; var obj=form.textarea1; if(obj.value.search(txt)==-1) {obj.value+=txt;} else {obj.value=obj.value.replace(txt,'');}}
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a> |
+        <a href="portfolio.html">Portfolio</a> |
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <ul>
+      <li>Portfolio Website
+        <ul>
+          <li>
+            <p>This is the first website I created in Coding From Scratch </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <form action="#" name="form1">
+      <fieldset><legend>form</legend>
+        <textarea rows="10" cols="20" name="textarea1">
+
+        </textarea>
+
+        <button type="button" onclick="check(this.form);">add/delete</button>
+        <script type="text/javascript">
+			    var sentences = document.getElementById("oneSentence").innerHTML;
+			    alert(sentences.split(".").length)
+		    </script>
+      </fieldset>
+    </form>
+    <footer>
+      <a href="https://www.instagram.com/shreyap16/">Instagram</a>
+      <a href="https://www.facebook.com/Shreyaaaaa">Facebook</a>
+      <a href="https://www.linkedin.com/in/shreya-patel-00788b42/">LinkedIn</a>
+    </footer>
+  </body>
+</html>
